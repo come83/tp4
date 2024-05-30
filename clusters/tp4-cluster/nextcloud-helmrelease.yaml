@@ -16,7 +16,7 @@ spec:
     createNamespace: true
   values:
     redis:
-      enabled: false
+      enabled: true
       master:
         persistence:
           enabled: false
