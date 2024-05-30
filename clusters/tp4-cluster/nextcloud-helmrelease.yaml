@@ -16,7 +16,7 @@ spec:
     createNamespace: true
   values:
     redis:
-      enabled: true
+      enabled: false
       master:
         persistence:
           enabled: false
@@ -26,5 +26,5 @@ spec:
     externalDatabase:
       enabled: false
     internalDatabase:
-      enabled: true
+      enabled: false
       name: nextcloud
